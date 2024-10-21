@@ -26,3 +26,6 @@ Starter project for ST0526 CICD
 git clone https://github.com/spicychillisus/project-management-board-cicd.git
 ```
 5. you have successfully cloned the repository into your computer! let's do work guys!
+
+## Git commands that are important:
+* insert the commands you think are important
