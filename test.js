@@ -17,6 +17,16 @@ function getRandomString(length) {
     return result;
 }
 
+// Function to generate a random boolean value
+function getRandomBoolean() {
+    return Math.random() >= 0.5;
+}
+
+// Function to generate a random date between two dates
+function getRandomDate(start, end) {
+    return new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
+}
+
 // Example usage
 console.log(getRandomInt(1, 100)); // Random integer between 1 and 100
 console.log(getRandomString(10));  // Random string of length 10
